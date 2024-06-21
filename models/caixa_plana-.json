@@ -1,0 +1,117 @@
+{
+    "grupsSVG": {
+        "hendit": {
+            "color": "red",
+            "path": [
+                "m v[0]-v[5] -3*v[5]",
+                "v -v[2]+3*v[5]",
+                "m 0 -2*v[5]",
+                "h -v[0]+v[5]",
+                "m -2*v[5] v[2]+2*v[5]",
+                "h -v[2]+4*v[5]",
+                "m -2*v[5] 0",
+                "v v[1]-2*v[5]",
+                "m 2*v[5] 0",
+                "h v[2]-4*v[5]",
+                "m 2*v[5] v[2]+2*v[5]",
+                "h v[0]-v[5]",
+                "m 0 -2*v[5]",
+                "v -v[2]+3*v[5]",
+                "m v[2]+3*v[5] -2*v[5]",
+                "v -v[1]",
+                "m -v[2]-2*v[5] 0",
+                "h -v[0]",
+                "v v[1]",
+                "h v[0]",
+                "z"
+            ]
+        },
+        "tall": {
+            "color": "blue",
+            "path": [
+                "m v[0]-v[5] -v[5]",
+                "v -v[5]",
+                "h v[4]",
+                "v -v[2]+v[5]",
+                "h -v[4]",
+                "v -v[3]-v[5]",
+                "h -v[0]+v[5]",
+                "v v[3]+2*v[5]+v[2]",
+                "h -v[5]",
+                "v -v[4]",
+                "h -v[2]+2*v[5]",
+                "v v[4]",
+                "h -v[3]-v[5]",
+                "v v[1]-2*v[5]",
+                "h v[3]+v[5]",
+                "v v[4]",
+                "h v[2]-2*v[5]",
+                "v -v[4]",
+                "h v[5]",
+                "v v[2]+2*v[5]+v[3]",
+                "h v[0]-v[5]",
+                "v -v[3]-v[5]",
+                "h v[4]",
+                "v -v[2]+v[5]",
+                "h -v[4]",
+                "v -v[5]",
+                "h 3*v[5]+v[2]+v[0]",
+                "v -v[1]",
+                "z"
+            ]
+        }
+    },
+    "nom": "caixa-plana-tapa",
+    "variables": {
+        "v[0]": {
+            "eti": "ample",
+            "es" : "ancho",
+            "en" : "width",
+            "rang" : [10,1500,2],
+            "val": 500
+        },
+        "v[1]": {
+            "eti": "llarg",
+            "es": "largo",
+            "en": "length",
+            "rang" : [10,1500.99,2],
+            "val": 500
+        },
+        "v[2]": {
+            "eti": "alt",
+            "es": "alto",
+            "en": "height",
+            "rang" : [1,500,2],
+            "val": 20
+        },
+        "v[3]": {
+            "eti": "solapa",
+            "es": "solapa",
+            "en": "flap",
+            "rang" : [1,600,2],
+            "val": 70
+        },
+        "v[4]": {
+            "eti": "cantonera",
+            "es": "cantonera",
+            "en": "corner",
+            "rang" : [0.99,999.99,2],
+            "val": 70
+        },
+        "v[5]": {
+            "eti": "gruix cartro",
+            "es": "grosor del carton",
+            "en": "carton thickness",
+            "rang" : [0.1,25,2],
+            "val": 2
+        }
+    },
+    "maxx": "2*v[0]+v[2]+3*v[5]",
+    "maxy": "v[1]+v[2]+v[3]+2*v[5]",
+    "mes:": 12,
+    "versi\u00f3": 1,
+    "minx": "-v[2]-v[3]-v[5]",
+    "miny": "-v[2]-v[3]-2*v[5]",
+    "any": 2022,
+    "client": "fotodekora"
+}
